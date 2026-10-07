@@ -23,8 +23,8 @@ import java.util.Scanner;
         totalHarga = jumlahCup * hargaPerCup;
         diskon = 0;
 
-        if (totalHarga >= 80000) {
-            diskon = totalHarga * 10 / 100;
+        if (totalHarga >= 120000) {
+            diskon = totalHarga * 8 / 100;
         }
         totalBayar = totalHarga - diskon;
 
