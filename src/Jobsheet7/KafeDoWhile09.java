@@ -1,6 +1,7 @@
 // 12000 diganti 14000
 // 7000 diganti 6000
 // 20000 diganti 18000
+
 package Jobsheet7;
 import java.util.Scanner;
 
