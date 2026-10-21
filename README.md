@@ -21,3 +21,12 @@ ini adalah repository pertama saya
 Nama: Fandi Ahmad Zulfikar
 NIM : 264107020019
 Kelas: TI-1F
+
+Hasil uji Studi Kasus 2 oleh Azka
+
+| NO |  jENIS  | DOKUMEN | JUARA/DANA |                      OUTPUT                         |
+|----|---------|---------|------------|-----------------------------------------------------|
+| 1  | belmawa |    4    |      1     |    Berhak memperoleh dana penghargaan (juara 1).    |
+| 2  | bakorma |    4    |      1     |    Berhak memperoleh dana penghargaan (juara 1).    |
+| 3  | mandiri |    2    |      3     |    Dokumen tidak lengkap (kurang 2 dokumen). Dana          Penghargaan Tidak Diberikan.
+| 4  |   PKM   |    4    |      1     |         Berhak memperoleh dana penghargaan          |
