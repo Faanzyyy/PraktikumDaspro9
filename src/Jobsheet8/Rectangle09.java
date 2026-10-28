@@ -14,9 +14,9 @@ public class Rectangle09 {
 
         for (int i = 1; i <= kolom ; i++) {  // ini OuterLoopnya
             for (int j = 1; j <= baris; j++) { // ini InnerLoopnya
-                System.out.print("*");
+                System.out.print("#");
             }
-             
+            System.out.println(); 
         }
         sc.close();
     }
