@@ -12,8 +12,8 @@ public class Rectangle09 {
         System.out.print("Masukkan Jumlah Kolom: ");
         int kolom = sc.nextInt();
 
-        for (int i = 1; i <= kolom ; i++) {  // ini OuterLoopnya
-            for (int j = 1; j <= baris; j++) { // ini InnerLoopnya
+        for (int i = 1; i <= baris ; i++) {  // ini OuterLoopnya
+            for (int j = 1; j <= kolom; j++) { // ini InnerLoopnya
                 System.out.print("#");
             }
             System.out.println(); 
