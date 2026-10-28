@@ -1,5 +1,6 @@
 package JobSheet4;
 import java.util.Scanner;
+
 public class TugasParkir09 {
     public static void main(String[] args) {
         Scanner fandi = new Scanner(System.in);

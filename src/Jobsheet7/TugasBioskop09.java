@@ -31,6 +31,8 @@ public class TugasBioskop09 {
                 diskon = 0.16;
             } else if (tiket > 3){
                 diskon = 0.12;
+            }else {
+                diskon = 0;
             }
             bayar = harga - (harga * diskon);
             System.out.println("Diskon: " + (int) (diskon * 100) + "%");
