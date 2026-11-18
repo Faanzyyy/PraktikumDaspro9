@@ -13,18 +13,26 @@ public class ArrayNilai09 {
             nilaiAkhir[i] = sc.nextInt();
         }
 
-        // for (int i = 0; i < nilaiAkhir.length; i++) {
-        // if (nilaiAkhir[i] > 70) {
-        //     System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (LULUS)");
-        // }
-        // }
-
-        int i = 1;
-        for (int nilai : nilaiAkhir) {
-            String status = (nilai > 70) ? "LULUS" : "TIDAK LULUS";
-            System.out.println("Nilai akhir mahasiswa " + i + ": "+ nilai + " (" + status + ")");
-            i++;
+        int lulus = 0, tidakLulus = 0;
+        for (int i = 0; i < nilaiAkhir.length; i++) {
+        if (nilaiAkhir[i] > 70) {
+            System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (LULUS)");
+            lulus++;
+        } else {
+            System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (TIDAK LULUS)");
+            tidakLulus++;
         }
+        }
+
+        System.out.println("Jumlah mahasiswa lulus: " + lulus);
+        System.out.println("Jumlah mahasiswa tidak lulus: " + tidakLulus);
+
+        // int i = 1;
+        // for (int nilai : nilaiAkhir) {
+        //     String status = (nilai > 70) ? "LULUS" : "TIDAK LULUS";
+        //     System.out.println("Nilai akhir mahasiswa " + i + ": "+ nilai + " (" + status + ")");
+        //     i++;
+        // }
         sc.close();
     }
 }
