@@ -22,6 +22,7 @@ public class ArrayRataNilai09 {
         int terendah = nilaiMhs[0];
         String predikat = "";
         int lulus = 0;
+        
         for (int i = 0; i < nilaiMhs.length; i++) {
             if (nilaiMhs[i] > tertinggi) {
                 tertinggi = nilaiMhs[i];
